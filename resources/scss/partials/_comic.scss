@@ -1,5 +1,8 @@
 @use "./variables" as *;
 
+.box-container{
+  max-width: 1320px;
+}
 .comic{
   .thumb-box{
     position: absolute;
