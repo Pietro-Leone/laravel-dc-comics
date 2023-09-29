@@ -1,0 +1,22 @@
+@use "./variables" as *;
+
+.cards-container {
+  background-color: #1c1c1c;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
+.badge {
+  border-radius: 0;
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.current {
+  top: -3rem;
+  left: 0;
+}
+
+.card-box {
+  margin: 1rem;
+}

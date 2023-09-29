@@ -1,1 +1,55 @@
 @use "./variables" as *;
+
+.credits-container {
+  background-image: url("/public/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.credits {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 380px;
+
+  h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}
+
+.contacts-container {
+  background-color: $color-secondary;
+  padding: 2rem 0;
+
+  button {
+    color: white;
+    border-radius: 0;
+  }
+
+  h4 {
+    color: $color-primary;
+    text-transform: uppercase;
+    margin: 0;
+    width: 100%;
+  }
+
+  img {
+    margin: 0 .5rem;
+    width: 40px;
+  }
+}
+
+.dc-bg {
+  background-image: url("/public/img/dc-logo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 380px;
+  width: 600px;
+  right: 0;
+}
+
+a,
+h5 {
+  color: white;
+  text-decoration: none;
+}

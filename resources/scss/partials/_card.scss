@@ -1,0 +1,42 @@
+@use "./variables" as *;
+
+.card {
+  background-color: transparent;
+  color: white;
+  border: 0;
+
+  .title-hover:hover {
+    background-color: black;
+
+    img {
+      opacity: .2;
+    }
+
+    .title-type,
+    .title-price {
+      opacity: 1 !important;
+      font-size: large;
+      font-weight: bold;
+    }
+  }
+
+  img {
+    height: 180px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  .title-type {
+    top: 0;
+  }
+
+  .title-price {
+    bottom: 0;
+  }
+}
+
+.span-el {
+  max-width: 180px;
+  height: 50px;
+}
