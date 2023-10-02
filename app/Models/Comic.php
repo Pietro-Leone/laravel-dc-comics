@@ -8,4 +8,21 @@ use Illuminate\Database\Eloquent\Model;
 class Comic extends Model
 {
     use HasFactory;
+
+    // protected $casts = [
+    //     "artists" => "string",
+    //     "writers" => "string"
+    // ];
+
+    protected $fillable = [
+        "title",
+        "description",
+        "thumb",
+        "price",
+        "series",
+        "sale_date",
+        "type",
+        "artists",
+        "writers"
+    ];
 }

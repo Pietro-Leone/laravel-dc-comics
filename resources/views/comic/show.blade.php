@@ -49,7 +49,7 @@
                     <div class="d-flex justify-content-between border-bottom">
                       <div class="fw-bold title-width">Art by:</div>
                       <p style="width: 400px; color: rgb(96, 177, 225)" class="ms-auto fw-bold">
-                        {{join(", ",json_decode($comic["writers"]))}}
+                        {{join(", ",json_decode($comic["artists"]))}}
                       </p>
                     </div>
                     <div class="d-flex justify-content-between border-bottom">
