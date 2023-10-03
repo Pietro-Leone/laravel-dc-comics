@@ -4,5 +4,5 @@
     <div class="position-absolute opacity-0 d-flex justify-content-center w-100 title-price">{{ $element["price"] }}</div>
     <div class="position-absolute opacity-0 d-flex justify-content-center w-100 title-type">{{ $element["type"] }}</div>
   </div>
-  <span class="span-el">{{ $element["series"] }}</span>
+  <span class="span-el">{{ $element["title"] }}</span>
 </div>

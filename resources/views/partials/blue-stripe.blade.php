@@ -26,7 +26,7 @@
   <div class="container d-flex justify-content-around align-items-center flex-wrap">
     @foreach ($titleImg as $el)
     <div>
-      <img src="img/{{$el["img"]}}" alt="{{$el["title"]}}" class="mx-3 my-5" style="height: 80px; max-width: 80px;">
+      <img src="/img/{{$el["img"]}}" alt="{{$el["title"]}}" class="mx-3 my-5" style="height: 80px; max-width: 80px;">
       <span class="bluestripe-title">{{ $el["title"] }}</span>
     </div>
     @endforeach

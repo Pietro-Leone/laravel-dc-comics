@@ -3,7 +3,13 @@
 @section('title', $comic->title)
 
 @section('content')
-<div class="bg-bluestripe" style="height: 50px">
+<div class="bg-bluestripe d-flex justify-content-center" style="height: 50px">
+  <div class="d-flex justify-content-end col-8">
+    <div class="d-flex flex-column justify-content-center">
+      <a class="btn btn-secondary" href="/comic/{{$comic->id}}/edit">Edit</a>
+    </div>
+  </div>
+
 </div>
 <div class="container-fluid position-relative">
   <div class="row justify-content-center">
